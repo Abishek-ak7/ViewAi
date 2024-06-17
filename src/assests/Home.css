@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Home {
+  background: #000;
+  /* @apply bg-[url('./images/iPad Mini.png')]  bg-cover bg-center p-2 w-full h-screen ; */
+}
