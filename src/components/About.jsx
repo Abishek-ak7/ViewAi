@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="2xl:container mt-16 patternabout ">
           <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-x-20 gap-y-10  place-items-center lg:px-16">
-          <div className="bg-[#160e39] bg-opacity-[85%] flex flex-col items-center justify-evenly gap-y-6 rounded-3xl  w-[309px] h-[400px] border-[#CCCCCC] border-[2px] border-opacity-[50%] relative pt-6">
+          <div className="bg-[#160e39] bg-opacity-[85%] flex flex-col items-center justify-evenly gap-y-6 rounded-3xl w-[280px] h-[362px] md:w-[309px] md:h-[400px] border-[#CCCCCC] border-[2px] border-opacity-[50%] relative pt-6">
             <div className=" absolute  top-3 right-3">
                 <svg
                   data-name="Layer 1"
@@ -29,19 +29,19 @@ export default function About() {
                 </svg>
                 </div>
               <div className="flex gap-x-20 justify-end items-center">
-                <div className="bg-[#5F44F0] h-36 w-32 rounded-3xl">
+                <div className=" ">
                 <img
-                  src={anirudhicon}  alt="anirudh avatar" className="h-36 "/>
+                  src={anirudhicon}  alt="anirudh avatar" className="h-36 bg-[#5F44F0] rounded-full "/>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center gap-y-4">
                 <p className="font-['Raleway'] text-white text-2xl font-semibold ">ANIRUDH B</p>
                 <p className="font-['Raleway'] text-white text-lg font-normal">Chief Executive Officer (CEO)</p>
-                <img src={viewailogo} alt="" className="  h-10" />
+                <img src={viewailogo} alt="" className=" h-8 md:h-10" />
               </div>
             </div>
 
-            <div className="bg-[#160E39]  bg-opacity-[85%] flex flex-col items-center justify-evenly gap-y-6 rounded-3xl w-[309px] h-[400px] border-[#CCCCCC] border-[2px] border-opacity-[50%] relative pt-6">
+            <div className="bg-[#160E39]  bg-opacity-[85%] flex flex-col items-center justify-evenly gap-y-6 rounded-3xl w-[280px] h-[362px] md:w-[309px] md:h-[400px] border-[#CCCCCC] border-[2px] border-opacity-[50%] relative pt-6">
             <div className=" absolute  top-3 right-3">
                 <svg
                   data-name="Layer 1"
@@ -54,15 +54,15 @@ export default function About() {
                 </svg>
                 </div>
               <div className="flex gap-x-20 justify-end items-center">
-                <div className="bg-[#5F44F0] h-36 w-32 rounded-3xl">
+                <div className="">
                 <img
-                  src={kavirajaricon}  alt="anirudh avatar" className="h-36 "/>
+                  src={kavirajaricon}  alt="anirudh avatar" className="h-36 bg-[#5F44F0] rounded-full"/>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center gap-y-4">
                 <p className="font-['Raleway'] text-white text-2xl font-semibold ">KAVIRAJAR B</p>
                 <p className="font-['Raleway'] text-white text-lg font-normal">Chief Technology Officer (CTO)</p>
-                <img src={viewailogo} alt="" className="  h-10" />
+                <img src={viewailogo} alt="" className=" h-8 md:h-10" />
               </div>
             </div>
           </div>
