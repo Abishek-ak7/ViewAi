@@ -4,5 +4,9 @@
 
 .Home {
   background: #000;
-  /* @apply bg-[url('./images/iPad Mini.png')]  bg-cover bg-center p-2 w-full h-screen ; */
+  @apply bg-[url('./images/bgi.png')] bg-cover ;
+
+}
+.pattern{
+  @apply bg-[url('./images/pattern.png')] ;
 }
