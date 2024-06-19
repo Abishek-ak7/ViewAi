@@ -14,7 +14,7 @@ import arrow from '../assests/images/Group 102.png';
 // import downrec from '../assests/images/Rectangle 156.png';
 import bg from '../assests/images/iPad Mini.png';
 import b from '../assests/images/Rectangle 158.png';
-import bgmi from '../assests/images/bgi.png';
+// import bgmi from '../assests/images/bgi.png';
 
 export default function Home() {
   return (
