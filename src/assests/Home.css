@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Home {
+  background: #000;
+  @apply bg-[url('./images/bgi.png')] bg-cover ;
+
+}
+.pattern{
+  @apply bg-[url('./images/pattern.png')] ;
+}
+
+
+.patternabout{
+  background-image:url("./images/Pattern\ about.png") ;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.connectwithuspattern{
+  background-image: url("./images/patterns\ connectwithus.png");
+}
