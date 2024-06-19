@@ -6,7 +6,7 @@ export default function ConnectWithUs() {
                 <section className="bg-gradient-to-b from-[#20016c] to-black">
         <div className="2xl:container bg-no-repeat bg-bottom bg-[length:100vw_250px] md:bg-[length:100vw_400px] connectwithuspattern">
             <div className="mx-auto w-[80%] grid grid-cols-1 pt-10">
-                <h1 className="text-white text-center font-bold text-xl md:text-4xl font-['Raleway']">Connect with us</h1>
+                <h1 className="text-white text-center font-bold text-xl md:text-3xl font-['Raleway']">Connect with us</h1>
             </div>
             <div className="mx-auto w-[80%] grid grid-cols-1 relative ">
                 <div>
