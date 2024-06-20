@@ -101,7 +101,7 @@ const Home = () =>{
         <div className='md:mt-9'>
           <div className='w-1/2 mt-14 md:mt-0 md:w-1/3 xl:w-1/4 xl:left-80 md:left-10 absolute h-4/5 sm:transparent md:bg-gray-800 rounded-xl md:backdrop-blur-sm md:bg-opacity-20 lg:bg-opacity-20 xl:bg-opacity-20 md:border-2 lg:border-2 xl:border-2 md:border-gray-500 lg:border-gray-500 xl:border-gray-500 pt-10'>
             <div className='flex bg-transparent md:pt-16 w-full px-3'>
-              <img src={text} className="bg-transparent w-full h-full md:w-full md:h-2/3" alt="View AI" />
+              <img src={text} className="bg-transparent w-full h-full md:w-full md:h-2/3 " alt="View AI" />
             </div>
             <div className='flex md:mt-10 mt-3 bg-transparent'>
               <img src={b} className='md:w-3 md:h-10 w-3 h-10 md:mt-5' alt="" />

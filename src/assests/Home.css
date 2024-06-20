@@ -4,7 +4,7 @@
 
 .Home {
   background: #000;
-  @apply bg-[url('./images/bgi.png')] md:bg-cover md:bg-center   bg-no-repeat h-full w-screen p-10;
+  @apply bg-[url('./images/bgi.png')] md:bg-cover md:bg-center   bg-no-repeat h-full w-screen ;
 
 }
 .pattern{
