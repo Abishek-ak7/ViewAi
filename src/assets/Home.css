@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Home {
+  background: black;
+  @apply bg-[url('./images/bgi.png')] md:bg-cover md:bg-center   bg-no-repeat h-full w-screen ;
+
+}
+.pattern{
+  @apply bg-[url('./images/pattern.png')] ;
+}
+/* src/assets/Home.css */
+.Unique {
+  @apply bg-[url('./images/Second_pattern.png')] bg-cover p-20;
+}
+
+.card {
+  background: #000;
+  @apply bg-[url('./images/vertical.png')] bg-cover w-3/4 h-auto rounded-3xl mx-auto;
+}
+
+#about{
+  @apply bg-[url('./images/Pattern_about.png')] bg-cover bg-center;
+}
+.ak{
+  @apply bg-[url('./images/Pattern_Bot.png')] bg-cover h-full w-screen;
+}
+

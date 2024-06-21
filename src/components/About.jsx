@@ -1,11 +1,14 @@
-import anirudhicon from "../assests/images/anirudh avatar.png";
-import viewailogo from "../assests/images/view ai logo.png";
-import kavirajaricon from "../assests/images/KAVIRAJAR AVATAR.png";
+import anirudhicon from "../assets/images/anirudh avatar.png";
+import viewailogo from "../assets/images/view ai logo.png";
+import kavirajaricon from "../assets/images/KAVIRAJAR AVATAR.png";
+import ConnectWithUs from "./ConnectWithUs";
 
 export default function About() {
+
   return (
-    <>
-      <section id="about" className=" bg-[#260094] min-h-screen py-10">
+    < >
+      <div className="bg-gradient-to-b  from-[#2c0094] to-[#0e002e] shadow-lg " >
+      <section id="about" className="py-10">
         <div className="2xl:container ">
           <div className="w-[80%] mx-auto text-center">
             <p className="font-['Urbanist'] text-4xl font-bold text-white ">
@@ -68,6 +71,9 @@ export default function About() {
           </div>
         </div>
       </section>
+      <ConnectWithUs/>
+      </div>
     </>
   );
+
 }
