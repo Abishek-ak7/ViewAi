@@ -27,7 +27,6 @@ export default function ConnectWithUs() {
         })
         .catch((error) => {
             console.log('FAILED...', error.text);
-            // Handle error state if needed
         });
     }
 
